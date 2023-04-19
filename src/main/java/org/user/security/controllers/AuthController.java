@@ -32,7 +32,7 @@ public class AuthController {
     private RoleRepository roleRepository;
     private PasswordEncoder passwordEncoder;
 
-    /** JWTGenerator part of JWTAuthorization Filter **/
+    /** Part of JWTAuthorizationFilter **/
 //    private JWTGenerator jwtGenerator;
 
     @Autowired

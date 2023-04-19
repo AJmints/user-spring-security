@@ -4,6 +4,9 @@ import lombok.Data;
 
 @Data
 public class AuthResponseDTO {
+
+    /** JWT Auth Filter Homework **/
+
     private String accessToken;
     private String tokenType = "Bearer ";
 
